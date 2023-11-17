@@ -6,8 +6,8 @@ import { useState } from 'react';
 
 function App() {
 
-  const base_URL = "http://localhost:5000";
-  // const base_URL = "https://chat-zone-qu4q.onrender.com";
+  // const base_URL = "http://localhost:5000";
+  const base_URL = "https://chatbot-wo3b.onrender.com/";
 
   const [message, setMessage] = useState("");
   const [showNavbar, setShowNavbar] = useState(true);
